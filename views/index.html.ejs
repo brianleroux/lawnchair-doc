@@ -1,0 +1,29 @@
+<h2>Home</h2>
+<p>A Lawnchair is sorta like a couch except smaller and outside.</p>
+<p> Perfect for html5 mobile apps that need a lightweight, simple and elegant persistence solution.</p>
+
+<pre>
+    // try it! open firebug or web inspector
+    Lawnchair.open({name:'testing', adaptor:'dom'}, function(store) {
+        // create an object
+        var me = {name:'brian'};
+        // save it
+        store.save(me);
+        // access it later... yes even after a page refresh!
+        store
+    })
+</pre>
+
+<h2>Features</h2>
+<ul>
+    <li>super micro tiny storage without the nasty SQL: pure and delicious JSON</li>
+    <li>adaptors for any clientside store</li>
+    <li>designed with mobile in mind</li>
+    <li>clean and simple oo design </li>
+    <li>key/value store ...key is optional</li>
+    <li>happily and handily will treats things as a simple array of objects</li>
+    <li>terse syntax for searching/finding </li>
+    <li>battle tested in app stores and on the open mobile web</li>
+    <li>framework agnostic (if not a framework athiest!)  </li>
+    <li>mit licensed</li>
+</ul>
